@@ -1,13 +1,19 @@
-# :other pluralization (see https://github.com/ddnexus/pagy/blob/master/lib/locales/utils/p11n.rb)
+# :other pluralization (see https://github.com/ddnexus/pagy/blob/master/lib/pagy/i18n.rb)
 
 vi:
   pagy:
 
+    # please add a comment in the https://github.com/ddnexus/pagy/issues/607
+    # posting the translation of page_label with the plurals for this locale
+    page_label: "Trang"
+
     item_name: "kết quả"
 
     nav:
-      prev: "&lsaquo;&nbsp;Trang trước"
-      next: "Trang sau&nbsp;&rsaquo;"
+      prev_label: "Trang trước"
+      next_label: "Trang sau"
+      prev: "&lt;"
+      next: "&gt;"
       gap: "&hellip;"
 
     info:
